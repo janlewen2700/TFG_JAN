@@ -9,3 +9,5 @@ Main.c : main part of the program, most of the variables will be scanned from th
 ModelB.c : time evolution using the regular solution free energy as well as model B dynamics. First version, some problems encountered during the forward and backward FFT.
 
 Movie_creator.py : python program that creates a movie out of .txt files from the output folder.
+
+Some results can be found in the Results folder, with gif and simulations parameters. 
