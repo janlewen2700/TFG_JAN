@@ -1,28 +1,28 @@
-#suffixes used
+#suffixes
 
 .SUFFIXES: .o .h .c 
 
-#compilation options
+#compilation
 
 COMPOPS = -g -Wall
 
-#linking options
+#linking
 
 LINKOPS = -lgsl -lgslcblas -lfftw3 -lm
 
-#list of object files
+#object files
 
 objects = main.o modelB.o
 
-#list of header files
+#header files
 
 headers = stdio.h stdlib.h math.h complex.h gsl_rng.h gsl_math.h fftw3.h headers.h
 
-#list of source codes
+#source codes
 
 sources = main.c modelB.c
 
-#directory paths for the source and header files
+#directory paths
 
 vpath %.c ./source_code/
 vpath %.h ./header_file/
