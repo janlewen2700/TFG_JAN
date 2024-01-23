@@ -44,7 +44,5 @@ modelB.o: modelB.c stdio.h stdlib.h math.h gsl_math.h complex.h fftw3.h headers.
 clean:
 	rm -rf *.o
 CLEAN:
-	rm -rf CH_variable_mobility.out
+	rm -rf simrun.out
 
-
-#end of the Makefile
