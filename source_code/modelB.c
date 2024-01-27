@@ -25,7 +25,6 @@ void modelB(int NC, int N, double dr, int time, double dt, double kappa, double 
     
     FILE *fw;
     char file_name[50];
-    /*char ps_file_name[50];*/
     double kv[2];
     double k2, k4, delk, denominator;
     int i, j, k, halfN, temp=0, dimtot=N*N, over=0;
